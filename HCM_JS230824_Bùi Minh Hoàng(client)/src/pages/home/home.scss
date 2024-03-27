@@ -1,0 +1,16 @@
+.home_page {
+  width: 100%;
+  header {
+    width: 100%;
+    height: $headerH;
+     
+  }
+  .home_page_body {
+    min-height: calc(100vh - ($headerH + $footerH));
+     
+  }
+  footer {
+    height: $footerH;
+     
+  }
+}
